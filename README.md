@@ -14,6 +14,7 @@ yarn add normalize-email
 ## Usage
 
 ```tsx
+
 import { normalizeEmail } from 'normalize-email';
 
 const email1 = normalizeEmail('John.Doe+test@gmail.com');
@@ -26,5 +27,5 @@ const email3 = normalizeEmail('user@custom-domain.com');
 // Returns: 'user@custom-domain.com'
 
 const email4 = normalizeEmail('invalid-email');
-// Returns: null
+
 ````

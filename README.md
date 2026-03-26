@@ -11,9 +11,11 @@ npm install normalize-email
 pnpm add normalize-email
 yarn add normalize-email
 
+```
+
 ## Usage
 
-```tsx
+```typescript
 const email1 = normalizeEmail('John.Doe+test@gmail.com');
 // Returns: 'johndoe@gmail.com'
 

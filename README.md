@@ -5,7 +5,7 @@ Handles Gmail and Hotmail/Outlook aliases and validates email format.
 
 ## Installation
 
-````bash
+```bash
 npm install normalize-email
 # or
 pnpm add normalize-email

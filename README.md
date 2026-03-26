@@ -1,4 +1,4 @@
-# normalize-email
+# mail-normalize
 
 A lightweight Node.js library to normalize and sanitize email addresses.  
 Handles Gmail and Hotmail/Outlook aliases and validates email format.
@@ -6,17 +6,17 @@ Handles Gmail and Hotmail/Outlook aliases and validates email format.
 ## Installation
 
 ```bash
-npm install normalize-email
+npm install mail-normalize
 # or
-pnpm add normalize-email
-yarn add normalize-email
+pnpm add mail-normalize
+yarn add mail-normalize
 
 ```
 
 ## Usage
 
 ```typescript
-import { normalizeEmail } from 'normalize-email';
+import { normalizeEmail } from 'mail-normalize';
 
 const email1 = normalizeEmail('John.Doe+test@gmail.com');
 // Returns: 'johndoe@gmail.com'

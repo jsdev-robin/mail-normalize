@@ -16,6 +16,8 @@ yarn add normalize-email
 ## Usage
 
 ```typescript
+import { normalizeEmail } from 'normalize-email';
+
 const email1 = normalizeEmail('John.Doe+test@gmail.com');
 // Returns: 'johndoe@gmail.com'
 
